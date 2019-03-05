@@ -1,85 +1,57 @@
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html lang="es">
-    <head>
-        <title> Fundamentos de Web</title>
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Fundamentos de Web</title>
         <meta charset="UTF-8">
         <meta name="description" content="Ejemplo de HTML5">
         <meta name="keywords" content="HTML5, CSS3, JavaScript">
         <meta charset="iso-8859-1">
         <title>Este texto es el título del documento</title>
         <link rel="stylesheet" href="misestilos.css">
-        
-    </head>
-    <body>
-        <div style="color:white;">Contenido</div>
-    </body>
+</head>
+<header>
+    <h1 style="color:white;">INICIO</h1>
+</header>
+<body style="background-color: black">
     
-    <body style="background-color: black">
-        <body background="fondo.gif">
-    </body>
-
-    <header>
-        <h1 style="color:white;">INICIO</h1>
-    </header>
-    <nav>
-        <ul>
-            <input type="button" value="Principal">
-            <input type="button" value="Fotos">
-            <input type="button" value="Videos">
-            <input type="button" value="Contacto">
-            <!--
-            <li>principal</li>
-            <li>fotos</li>
-            <li>videos</li>
-            <li>contacto</li
-            -->
-        </ul>
-    </nav>
-    <section>
-        <article>
-            <header>
-                <hgroup>
-                    
-                    <h1 style="color:white;">Título del mensaje uno</h1>
-                    <h2 style="color:white;">Subtítulo del mensaje uno</h2>
-                </hgroup>
-                <p style="color:white;">publicado 10-12-2011</p>
-            </header>
-            <figure style="color:white;">
-                <img src=”https://img.haikudeck.com/mi/91a60f3de1b48ef67904eb1ec0158f89.jpeg”
-                     alt="Foto"
-                     width="639"
-                     height="424">
-            </figure>
-            
-            <footer>
-                <p style="color:white;">comentarios (0)</p>
+    <div id="envoltura">
+        <div id="contenedor">
+ 
+            <div id="cabecera">
+                <img src="http://static1.sodexobeneficios.cl/extranet-junaeb-beneficiarios/media-files/2018/03/Bienvenidos-Junaeb-611x408.png" >
+            </div>
+ 
+            <div >
+ 
+                <form >
+                    <p style="color:white;"><label for="nombre">Nombre:</label></p>
+                        <input  placeholder="nombre" /></p>
+ 
+                    <p style="color:white;"><label for="apellidos">Apellidos:</label></p>
+                        <input  placeholder="apellido" /></p>
+      
+ 
+                    <p style="color:white;"><label for="correo">Correo:</label></p>
+                        <input placeholder="e-mail" /></p>
+ 
+                    <p style="color:white;"><label for="cont">Password:</label></p>
+                        <input placeholder="contraseña" /></p>
+ 
+                    <p style="color:white;"><label for="repass">Repetir Password:</label></p>
+                        <input  placeholder="repite contraseña" /></p>
+ 
+                    <p><input type="button" value="continuar" ></p>
+                </form>
+            </div>
+ 
+            <div >Sistema Registro de usuario</div>
+            <footer style="color:blue;">
+                Derechos Reservados &copy; 2018
             </footer>
-        </article>
-        <article>
-            <header>
-                <hgroup>
-                    <h1 style="color:white;">Título del mensaje dos</h1>
-                    <h2 style="color:white;">Subtítulo del mensaje dos</h2>
-                </hgroup>
-                <p style="color:white;">publicado 15-02-2018</p>
-            </header>
-            Este es el texto de mi segundo mensaje
-            <footer>
-                <p style="color:white;">comentarios (0)</p>
-            </footer>
-        </article>
-    </section>
-    <aside>
-        <blockquote style="color:white;">Mensaje número uno</blockquote>
-        <blockquote style="color:white;">Mensaje número dos</blockquote>
-    </aside>
-    <footer style="color:blue;">
-        Derechos Reservados &copy; 2018
-    </footer>
-    </body>
+        </div>
+ 
+    </div>
+ 
+</body>
+ 
 </html>
